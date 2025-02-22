@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    position: absolute;
+    left: 50%;
+    top: 125px;
+    transform: translate(-50%)
+}
+
+#container{
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #212121;
+    color: white;
+
+}
+
+/*
+    Textos
+*/
+
+#mqem{
+    width: 300px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 180px;
+    transform: translate(-50%);
+}
+
+#imgpika{
+    width: 200px;
+    height: auto;
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+    border: solid 3px white;
+}
+
+#nomepika{
+    font-size: 25px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+
+/*
+    Botões Smash or Pass
+*/
+
+#buttonsDiv{
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%, 0%)
+}
+
+.buttonSorP{
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-out;
+}
+
+#smashButton:hover{
+    background-color: rgb(147, 255, 156);
+}
+
+#passButton:hover{
+    background-color: rgb(255, 126, 126);
+}
+
+#smashButton{
+    margin-left: 5px;
+}
+
+#countingDiv{
+    margin-top: 8px;
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
